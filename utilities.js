@@ -6,7 +6,8 @@ function create(options = {
     id: null,
     attr: [[]],     // check
     text: false,    // check
-    child: false    // check
+    child: false,    // check
+    log: false
 }) {
 
     let newElement = document.createElement(options?.type ?? 'div');
@@ -47,7 +48,10 @@ function create(options = {
         console.log(options)
         throw new Error('child() arg is not of accepted type (either element or array of elements).')
     }
-
+    
+    if (options.log) {
+        console.log(newElement)
+    }
     return newElement;
 
 }
