@@ -8,7 +8,7 @@ This simple js file helps you create html elements, and makes that process less 
 - [Documentation](#documentation)
 - [How to use](#how-to-use)
 # Why *create-element*?
-I dont think there's a need to create a separate file or blog post explaining how this works, just take a look at this example of how it works and you may understand what it does.
+This is an opinionated piece of javascript, but it lets you create and stack html elements in an easier way - compared to vanilla at least. Take a look at some comparisons below:
 
 ## Without *create-element*
 
