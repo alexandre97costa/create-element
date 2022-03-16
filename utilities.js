@@ -31,7 +31,7 @@ function create(options = {
     if (Array.isArray(options?.child)) {
         for (let i = 0; i < options.child?.length ?? 0; i++) {
             
-            if (options.child?.nodeType === Node.ELEMENT_NODE) {
+            if (options.child.nodeType === Node.ELEMENT_NODE) {
                 newElement.appendChild(options.child[i])
             } else {
                 throw new Error('Not a valid element.');
