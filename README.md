@@ -77,19 +77,20 @@ Notice how easy it is to build nested structures like this!
 All while being easy to understand the logic and hierarchy.
 # Documentation
 
-[Documentation](https://linktodocumentation)
+*There's nothing here...*
 
 
 # How to use
 
 ## Via CDN
-You can use jsDelivr or your choice of a free CDN provider to host this file.
-Just paste this at the bottom of the `body` tag of your document.
+
+Paste this at the bottom of the `body` tag of your document.
 
 ```html
 <script src="https://cdn.jsdelivr.net/gh/alexandre97costa/create-element/utilities.min.js"></script>
 ```
 
-## Download
-The easier way would probably be to download the single file and put it in your local folder.
+## npm when?
+I might be a bit too dumb to understand how to upload a package to npm. 
+
 
