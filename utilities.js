@@ -1,4 +1,4 @@
-const comments = true;
+const comments = false;
 
 function create(options = {
     type: 'div',    // check
