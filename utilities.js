@@ -34,7 +34,8 @@ function create(options = {
             if (options.child.nodeType === Node.ELEMENT_NODE) {
                 newElement.appendChild(options.child[i])
             } else {
-                throw new Error('Not a valid element.');
+                
+                throw new Error('Not a valid element bro.', options.child.nodeType);
             } 
             
         }
